@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3514b279.css",
+    "main.js": "/static/js/main.e8845c8c.js",
+    "static/media/reactscreen.png": "/static/media/reactscreen.0707e68f4a7d4472f857.png",
+    "static/media/airbnbscreen.png": "/static/media/airbnbscreen.72a65dc0b5a73bb4db1c.png",
+    "static/media/TodoMVC.png": "/static/media/TodoMVC.c77813c38bc45b6a2f5c.png",
+    "static/media/CD.png": "/static/media/CD.54fd79e677231af5f688.png",
+    "static/media/mountainmove.png": "/static/media/mountainmove.43f2f17b9b1f81289e2e.png",
+    "static/media/libraryindex.png": "/static/media/libraryindex.c50d00de938a922b64a4.png",
+    "static/media/cartoonAPIexpress.png": "/static/media/cartoonAPIexpress.c9b52013595783165e4e.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/htmlcss.png": "/static/media/htmlcss.8a77ea93233194b1d1ee.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.3514b279.css.map": "/static/css/main.3514b279.css.map",
+    "main.e8845c8c.js.map": "/static/js/main.e8845c8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3514b279.css",
+    "static/js/main.e8845c8c.js"
+  ]
+}
