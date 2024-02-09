@@ -31,8 +31,15 @@ const Pottery = () => {
   return (
     <div name='pottery' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-400'>
+            Pottery
+          </p>
+          <p className='py-6'> Check out some of my recent work</p>
+        </div>
+
         {/* ... */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 w-[800px] h-[800px] gap-4 px-14">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 w-full max-w-[800px] mx-auto gap-4 px-14">
           {/* Grid Item */}
           {pottery.map((item, index) => (
             <div
@@ -60,33 +67,46 @@ const Pottery = () => {
             </div>
           ))}
         </div>
-        {/* Modal */}
-        {modalOpen && (
-          <div className="fixed w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
-            <div
-              ref={modalRef}
-              onClick={handleOutsideClick}
-              className="bg-white justify-center items-center rounded-lg p-8 w-[50%] h-[75%]">
-              <button
-                onClick={closeModal}
-                className="float-right text-red-500">
-                X
-              </button>
-              <h2 className="text-2xl font-bold mb-4">
-                {selectedItem && selectedItem.name}
-              </h2>               
-              <p className="text-med">
-                {selectedItem && selectedItem.medium}
-              </p>
-              <img
-                src={selectedItem && selectedItem.image}
-                alt={selectedItem && selectedItem.name}
-                className="w-[50%] h-[90%] object-contain mb-4"
-              />
 
-            </div>
-          </div>
-        )}
+ {/* Modal */}
+
+ {modalOpen && (
+
+<div className="fixed top-o left-0 w-full h-full bg-black flex justify-center items-center">
+
+  <div
+    ref={modalRef}
+    onClick={handleOutsideClick}
+    className="bg-white justify-center rounded-lg p-8 w-[70%] h-[100%]">
+
+    <button
+      onClick={closeModal}
+      className="float-right text-red-500">
+      X
+    </button>
+    
+    <div className='flex flex-col items-center '>
+      <h2 className="text-2xl font-bold mb-4">
+        {selectedItem && selectedItem.name}
+      </h2>               
+
+      <p className="text-med">
+        {selectedItem && selectedItem.medium}
+      </p>
+      <div className='max-w-[300px] mt-4'>
+      <img
+        src={selectedItem && selectedItem.image}
+        alt={selectedItem && selectedItem.name}
+        className=""
+      />
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+)}
       </div>
     </div>
   );
