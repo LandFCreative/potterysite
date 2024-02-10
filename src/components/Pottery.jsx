@@ -48,7 +48,7 @@ const Pottery = () => {
               backgroundSize: 'cover',
             }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-                         flex justify-center text-center items-center mx-auto content-div object-cover">
+                         flex justify-center text-center items-center mx-auto h-[165px] content-div object-cover">
               {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-1xl font bold text-white tracking-wider ">
