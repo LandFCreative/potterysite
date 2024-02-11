@@ -1,53 +1,37 @@
-import cartoonAPIexpress from '../assets/projects/cartoonAPIexpress.png'
-import libraryindex from '../assets/projects/libraryindex.png'
-import mountainmove from '../assets/projects/mountainmove.png'
-import TodoMVC from '../assets/projects/TodoMVC.png'
-import reactscreen from '../assets/projects/reactscreen.png'
-import airbnbscreen from '../assets/projects/airbnbscreen.png'
+import Threeten from '../assets/graphic/310.jpg'
+import Natured from '../assets/graphic/naturedkids.jpg'
+import Refashioned from '../assets/graphic/refashioned.jpg'
+import RR from '../assets/graphic/rr.jpg'
+import Soul from '../assets/graphic/soulrest.jpg'
+import Tough from '../assets/graphic/toughbirds.jpg'
+
 
 
 export const data=[
     {
         id:1,
-        name:"Cartoon Local API Application",
-        image:cartoonAPIexpress,
-        github:"https://github.com/LandFCreative/cartoondogsAPI",
-        live:"https://cartoon-dog-api.onrender.com/",
+        name:"Three Ten Pottery Studio",
+        image:Threeten,
     },
     {
         id:2,
-        name:"Library Full Stack App",
-        image:libraryindex,
-        github:"https://github.com/LandFCreative/minilibraryupdate",
-        live:"https://quaint-twill-cod.cyclic.app/",
+        name:"Refashioned Clothing Co.",
+        image:Refashioned,
     },
     {
         id:3,
-        name:"Mountain Movement Website Design",
-        image:mountainmove,
-        github:"",
-        live:"www.mountainmovementinvermere.ca",
+        name:"Rhythm and Rhyme",
+        image:RR,
+        
     },
     {
         id:4,
-        name:"To Do App",
-        image:TodoMVC,
-        github:"https://github.com/LandFCreative/todo-mvc-auth-local",
-        live:"https://todo-with-authentication-f69h.onrender.com",
+        name:"Soul Restoration Soap Co.",
+        image:Soul,
     },
     {
         id:5,
-        name:"React Photo API with Tailwind",
-        image:reactscreen,
-        github:"https://github.com/LandFCreative/Reacttailwindphotoapi",
-        live:"https://precious-gnome-09e42e.netlify.app",
+        name:"ToughBirds Tour Company",
+        image:Tough,
     },
-    {
-        id:6,
-        name:"React Airbnb Experience Page Cloned",
-        image:airbnbscreen,
-        github:"https://github.com/LandFCreative/ReactAirbnbclone",
-        live:"https://symphonious-phoenix-6dfe06.netlify.app/",
-    },
-
 ]
