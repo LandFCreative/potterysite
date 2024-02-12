@@ -1,4 +1,5 @@
 import React from 'react'
+import Cartoonme from "../assets/cartoonme.png";
 
 const About = () => {
   return (
@@ -16,6 +17,15 @@ const About = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
               <p>Hi. I'm Christine. Nice to meet you. Please take a look around.</p>
+
+              <div className="mx-14 rounded-full bg-[#e2e2e2] w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] relative">
+              <img src={Cartoonme} alt="Cartoonme"
+              alt="hero image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
+            />
+          </div>
             </div>
             <div>
               <p>I am passionate about building excellent software that improves

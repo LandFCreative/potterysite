@@ -22,7 +22,7 @@ const Navbar = () => {
 
      
       {/* Hamburger */}
-      <div onClick={handleClick} className='py-6 text-3xl' >
+      <div onClick={handleClick} className='py-6 text-2xl z-10' >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -31,12 +31,9 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 right-0 w-20vw h-screen bg-[#486da4] flex flex-col justify-center items-center'
+            : 'absolute top-0 right-0 w-20vw h-screen bg-[#4893a4] flex flex-col justify-center items-center'
         }
       >
-       <li className='py-6 text-3xl'>
-       <FaTimes />
-        </li> 
         <li className='py-6 text-3xl'>
         <a href='/'>Home</a>
 
