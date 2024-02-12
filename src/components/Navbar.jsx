@@ -42,9 +42,9 @@ const Navbar = () => {
           <a href='/about'>About</a>
         </li>
 
-        <li className='py-6 text-3xl'>
+        {/* <li className='py-6 text-3xl'>
           <a href='/skills'>Skills</a>
-        </li>
+        </li> */}
 
         <li className='py-6 text-3xl'>
             <a href='/design'>Design</a>

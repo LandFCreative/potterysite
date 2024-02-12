@@ -9,7 +9,7 @@ const Home = () => {
     <div name="home" className='w-fill h-screen bg-[#0A192f]'>
 
 {/* container */}
-<div className='max-w-[1000px] mx-auto px-20 my-10 flex flex-col justify-center h-full '>
+<div className='flex flex-col justify-center items-center w-full h-full'>
 <div>
 
           <p className='text-yellow-400 pt-12 md:pt-16'>Hi My name is</p>   
