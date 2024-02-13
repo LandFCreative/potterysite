@@ -16,6 +16,8 @@ const Home = () => {
           <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] '>Christine.
           </h1>
           <p className='text-yellow-400 pt-12 md:pt-16'>I am a</p>
+          </div>
+          <div>
           <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
 
             <TypeAnimation

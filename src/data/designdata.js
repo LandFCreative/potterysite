@@ -34,4 +34,9 @@ export const data=[
         name:"ToughBirds Tour Company",
         image:Tough,
     },
+    {
+        id:5,
+        name:"Natured Kids Club",
+        image:Natured,
+    },
 ]
