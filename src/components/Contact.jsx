@@ -1,7 +1,5 @@
 import React from 'react'
 import {
-    FaBars,
-    FaTimes,
     FaGithub,
     FaLinkedinIn,
     FaInstagram,

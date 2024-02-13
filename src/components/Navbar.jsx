@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes,} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import Logo from '../assets/CD.png';
 
 const Navbar = () => {
